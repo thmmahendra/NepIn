@@ -13,12 +13,18 @@
 </body>
 
 <nav class="navbar">
-    <div class="nav-left">
+    <div class="navbar-left">
         <a href="index.html" class="logo"><img src="images/logo.png"></a>
+
+        <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+
     </div>
     <div class="navbar-center">
         <ul>
-            <li><a href="#"><img src="images/home.png"><span>Home</span></a></li>
+            <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
             <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
             <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
             <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
@@ -26,8 +32,21 @@
         </ul>
     </div>
     <div class="nav-right">
-        <img src="images/user-1.png" class="nav-profile-img">
+        <div class="online">
+            <img src="images/user-1.png" class="nav-profile-img">
+        </div>
     </div>
 </nav>
+
+<!-------------- navbar close------------------->
+
+<div class="conatainer">
+    <!--------------- left-sidebar  ------------->
+    <div class="left-sidebar"></div>
+    <!--------- main-content -------------->
+    <div class="main-content"></div>
+    <!---------- right-sidebar ------------->
+    <div class="right-sidebar"></div>
+</div>
 
 </html>
