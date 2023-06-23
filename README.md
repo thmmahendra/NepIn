@@ -1,3 +1,3 @@
 # NepedIn
 
-## This is the LinkdIn clone practice.
+## This is the LinkedIn clone practice.
