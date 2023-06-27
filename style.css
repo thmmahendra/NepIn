@@ -119,7 +119,7 @@ a {
 
 /*-------------- navbar end-------------------*/
 
-.conatainer {
+.container {
     padding: 20px 6%;
     display: flex;
     flex-wrap: wrap;
@@ -606,7 +606,6 @@ a {
 }
 
 /*--------------------profile-page --------------------------*/
-
 .profile-main {
     flex-basis: 73%;
 }
@@ -656,7 +655,7 @@ a {
 .mutual-connection {
     display: flex;
     align-items: center;
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 .mutual-connection img {
@@ -686,4 +685,22 @@ a {
 .profile-btn .primary-btn {
     background-color: #045be6;
     color: #fff;
+}
+
+.profile-description {
+    background: #fff;
+    padding: 20px 4% 30px;
+    margin: 12px 0;
+}
+
+.profile-description h2 {
+    color: #333;
+    margin: 10px 0 20px;
+    font-weight: 600;
+}
+
+.see-more-link {
+    display: block;
+    text-align: right;
+    font-size: 15px;
 }
